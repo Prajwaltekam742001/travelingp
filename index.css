@@ -1,0 +1,634 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   }
+   html,body{
+       width: 100%;
+       height: 100%;
+   }
+   .main_cont{
+       width: 100%;
+       height: 100%;
+        /* padding: 10px; */
+   } 
+
+
+
+
+
+   /* main page start */
+   #logo{
+    font-size: 36px;
+    font-weight: 700;
+   }
+   
+   .serch_tag{
+    margin-left:5%;
+   }
+   .nav-link:hover{
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 3px;
+   }
+   .home_cont{
+    width: 100%;
+    height: 100%;
+    background-image: url("IMAGES\ FRONT.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .home_cont{
+    text-align: center;
+    padding-top: 100px;
+
+   }
+   .home_cont h5{
+    font-size: 38px;
+   
+    color:black;
+   }
+   .changecontent::after{
+    content: "";
+    color: yellow;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite linear;
+
+   }
+   @keyframes changetext{
+    0%{content: "India";}
+    15%{content:"Italy";}
+    30%{content:"France";}
+    45%{content: "United States";}
+    75%{content: "United Kingdom";}
+    100%{content: "Canada";}
+   }
+/* main page end */
+
+/* main page start for md d */
+@media (min-width:768px) {
+
+  
+}
+
+/* main page end for md d */
+
+/* main page start for lg d */
+
+@media (min-width:768px) {
+    
+  
+}
+/* main page start for lg d */
+
+
+ /* ------------------------------------  */
+
+
+  /* <!-- book sec start --> */
+  .book{
+    width: 100%;
+    height: 10%;
+    /* background-color: aqua; */
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .bookimage{
+    width: 40%;
+    height: 80%;
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+  border-radius: 20px;
+  box-shadow: 2px 0px 10px black;  
+ 
+  }
+  .form1{
+    width: 100%;
+    height: 800%;
+    /* border: 1px solid black; */
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 2px 0px 10px black; 
+  }
+  
+  .bookimage1{
+    width: 100%;
+    height: 100%;
+  }
+/* <!-- book sec end --> */
+
+
+ /* start book sec for large dev */
+@media (min-width:1024px) {
+  .imageform{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  .bookimge{
+    width: 40%;
+    height: 80%;
+ 
+    background-color: aliceblue;
+  border-radius: 20px;
+  box-shadow: 2px 0px 10px black;  
+  }
+  .bookimage1{
+    width: 100%;
+    height: 100%;
+  }
+  .form1{
+    width: 40%;
+    height: 80%;
+   
+   
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 2px 0px 10px black; 
+  }
+}
+
+
+
+/*end book sec for large dev */
+
+ /* ------------------------------------  */
+
+
+ /* packages sec start */
+ .main_txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow:0px 2px 2px black ;
+   }
+   .packages{
+    padding-top: 20px;
+   }
+
+
+   .rpk{
+    width: 100%;
+    height: 60%;
+    padding: 20px;
+   }
+  
+   
+
+   .main_txt h1 span{
+     color: goldenrod;
+   }
+
+  
+   .packages .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 4px 12px;
+    padding: 10px;
+   }
+   .packages .card img{
+    border-radius: 5px;
+   }
+   .packages .card .card_body h3{
+       font-size: 25px;
+   }
+   .packages .card .card_body p{
+    font-size: 15px;
+}
+.packages .card .card_body h6{
+  font-size: 20px;
+}
+.packages .card .card_body a{
+  font-size: 10px;
+  text-decoration: none;
+  background-color: goldenrod;
+  color: white;
+  border-radius: 5px;
+}
+
+/* packages for md d start */
+@media (min-width:768px) {
+    .main_txt h1{
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 600;
+        text-shadow:0px 2px 2px black ;
+       }
+    
+    
+       .rpk{
+        width: 33%;
+        height: 80%;
+        padding: 20px;
+       }
+       .packages3_1{
+        display: flex;
+        justify-content: space-evenly;
+       }
+       .packages3_2{
+        display: flex;
+        justify-content: space-evenly;
+    }
+       
+       
+    
+       .main_txt h1 span{
+         color: goldenrod;
+       }
+    
+      
+       .packages .card{
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0px 4px 12px;
+        padding: 10px;
+       }
+       .packages .card img{
+        border-radius: 5px;
+       }
+       .packages .card .card_body h3{
+           font-size: 25px;
+       }
+       .packages .card .card_body p{
+        font-size: 15px;
+    }
+    .packages .card .card_body h6{
+      font-size: 20px;
+    }
+    .packages .card .card_body a{
+      font-size: 10px;
+      text-decoration: none;
+      background-color: goldenrod;
+      color: white;
+      border-radius: 5px;
+    }
+    
+}
+/* packages for md d end */
+
+/* packages sec end*/
+
+
+
+/* ------------------------------ */
+
+
+   /* services sec start */
+   .main_txt h1 span{
+    color: goldenrod;
+  }
+  .main_txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow:0px 2px 2px black ;
+   }
+.services{
+    background-color: aliceblue;
+    margin-top: 50px;
+    padding: 10px;
+}
+.services .rser .card{
+    padding: 10px;
+   margin-top: 10px;
+}
+.services .card{
+    box-sizing:  2px 0px 10px black;
+}
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    color: goldenrod;
+    margin-top: 20px;
+}
+.services .card .card_body{
+    text-align: center;
+}
+
+/* services sec md start */
+@media (min-width:768px) {
+    
+    
+
+    .main_txt h1 span{
+        color: goldenrod;
+      }
+      .rser{
+        width: 30%;
+      }
+    .services .services3_1{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+    .services .services3_2{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+    .services .rser .card{
+        padding: 10px;
+    }
+    
+      .main_txt h1{
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 600;
+        text-shadow:0px 2px 2px black ;
+       }
+    .services{
+        background-color: aliceblue;
+        margin-top: 50px;
+    }
+    .services .card{
+        box-sizing: 0px 5px 12px black;
+    }
+    .services .card i{
+        font-size: 80px;
+        text-align: center;
+        color: goldenrod;
+        margin-top: 20px;
+    }
+    .services .card .card_body{
+        text-align: center;
+    }
+    }
+
+/* services sec md end */
+
+
+/* services sec start for lg d */
+@media (min-width:1024px) {
+    
+
+.main_txt h1 span{
+    color: goldenrod;
+  }
+  .rser{
+    width: 30%;
+  }
+.services .services3_1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.services .services3_2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.services .rser .card{
+    padding: 10px;
+}
+
+  .main_txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow:0px 2px 2px black ;
+   }
+.services{
+    background-color: aliceblue;
+    margin-top: 50px;
+}
+.services .card{
+    box-sizing: 0px 5px 12px black;
+}
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    color: goldenrod;
+    margin-top: 20px;
+}
+.services .card .card_body{
+    text-align: center;
+}
+}
+/* services sec start for lg d */
+    /* services sec end*/
+
+
+    /* -------------------------- */
+
+    /* gallery sec start */
+
+.gallery{
+    margin-top: 50px;
+}
+.main_txt h1 span{
+    color: goldenrod;
+  }
+  .main_txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow:0px 2px 2px black ;
+   }
+   .gallery .card{
+    border-radius: 10px;
+    box-shadow: 0px 4px 12pc black;
+    cursor: pointer;
+    padding: 10px;
+   }
+   .gallery .card img{
+    border-radius: 10px;
+    transition: 0.5s;
+   }
+   .gallery .card img:hover{
+    transform: scale(1.1);
+   }
+   .rgal{
+    padding: 20px;
+   }
+
+
+   /* gallary sec for lg d start */
+@media (min-width:1024px) {
+    .gallery{
+        margin-top: 50px;
+    }
+    .main_txt h1 span{
+        color: goldenrod;
+      }
+      .main_txt h1{
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 600;
+        text-shadow:0px 2px 2px black ;
+       }
+       .gallery .card{
+        border-radius: 10px;
+        box-shadow: 0px 4px 12pc black;
+        cursor: pointer;
+        padding: 10px;
+       }
+       .gallery .card img{
+        border-radius: 10px;
+        transition: 0.5s;
+       }
+       .gallery .card img:hover{
+        transform: scale(1.1);
+       }
+       .rgal{
+        padding: 20px;
+       }
+      .gallery3_1{
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .gallery3_2{
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .rgal{
+        width: 33%;
+      }
+    
+}
+
+   
+ /* gallery sec for lg d end */
+
+/* gallery sec end */
+
+/* ------------------------------ */
+
+ /* about sec start */
+ .main_txt h1 span{
+    color: goldenrod;
+  }
+  .main_txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow:0px 2px 2px black ;
+   }
+   .about {
+    margin-top: 50px;
+    background-color: aliceblue;
+   }
+   .rabout{
+    width: 100%;
+    padding: 10px;
+   }
+   .text_cont{
+    padding: 10px;
+    text-align: center;
+   }
+   .about .card {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+   }
+   .about .card img{
+      border-radius: 10px;
+   } 
+   .about h2{
+    font-weight: 600;
+    
+   }
+   .about button{
+    border-radius: 5px;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+    cursor: pointer;
+
+   }
+   .about button:hover{
+    width: 170px;
+   }
+  
+
+   /* about sec stART for lg d */
+   @media (min-width:1024px) {
+    
+   
+   .main_txt h1 span{
+    color: goldenrod;
+  }
+  .main_txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow:0px 2px 2px black ;
+   }
+   .about {
+    margin-top: 50px;
+    background-color: aliceblue;
+   }
+   .rabout{
+    width: 50%;
+    padding: 20px;
+   }
+   .text_cont{
+    padding: 10px;
+    text-align: center;
+   }
+   .about .card {
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+   }
+   .about .card img{
+      border-radius: 10px;
+   } 
+   .about h2{
+    font-weight: 600;
+    
+   }
+   .about button{
+    border-radius: 5px;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+    cursor: pointer;
+
+   }
+   .about button:hover{
+    width: 170px;
+   }
+   .about_2_1{
+    display: flex; 
+   }
+
+}
+ /* about sec end for lg d */
+    /* about sec end */
+
+    /* ------------------------ */
+
+    /* footer start */
+    span {
+      color: goldenrod;
+    }
+.footer{
+    margin-top: 50px;
+    padding: 20px;
+}
+ .footer_heading{
+    width: 100%;
+    height: 5%;
+    /* background-color: aqua; */
+    text-align: center;
+    padding: 10px;
+ }
+ .social_link{
+    text-align: center;
+ }
+ .sizeinstlogo{
+    font-size: 50px;
+ }
+ .sizeinstlogo:hover{
+  font-size: 60px;
+}
+
+
+
+ /* footer end */
